@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form action="index.html">
+      <!-- form 태그는 사용자로부터 입력값을 받아 서버로 보낼때 사용하는 태그
+        속성은 기본적으로 action, class, method가 있는데 아직 액션만 알자-> 해당 주소로
+        데이터 전송 액션 태그 -->
+      <!-- input 태그는 입력값 받는 창 생성 모든 프로그램이 비슷한듯, 기본속성은
+        type = text, password등등 받는 데이터 형태 설정
+        name = 변수 이름
+        value = 텍스트 박스에 기본적으로 적혀 있는 값 -->
+      <p>text : <input type="text" name="id" value="default value"></p>
+      <p>password : <input type="password" name="pwd" value="default value"></p>
+      <p>
+        textarea
+        <!-- textarea 태그는 텍스트박스를 생성하는데 여러줄의 텍스트박스를 생성할때 사용
+          기본속성은 cols = 콜롬을 늘릴때 rows = 줄을 늘릴때
+          input과 textarea의 차이점은 인풋은 한줄 텍스트 입력창 textarea는 여러줄! -->
+          <!-- 단 텍스트에어리어는 value 속성값이 텍스트에어리어 태그 사이에 콘텐츠로 들어간다. -->
+        <textarea cols="50" rows="10">deault value</textarea>
+      </p>
+    </form>
+  </body>
+</html>
